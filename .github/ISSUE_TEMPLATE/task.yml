@@ -1,0 +1,26 @@
+name: 作業
+description: 作るもの・直すもの・調べること
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: 何をするか
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: なぜか
+      description: 原因・経緯。分かればファイル名と行番号も
+    validations:
+      required: true
+  - type: textarea
+    id: decisions
+    attributes:
+      label: 判断したこと・見送ったこと
+      description: 見送った理由も書く（次の人が同じ検討をやり直さないため）
+  - type: textarea
+    id: links
+    attributes:
+      label: 関連
+      description: Issue・PR・設計書

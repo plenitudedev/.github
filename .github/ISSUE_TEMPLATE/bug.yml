@@ -1,0 +1,19 @@
+name: 不具合
+description: 期待どおりに動かないこと
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: 何が起きたか
+      description: 期待した動きと、実際の動き
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 再現の手順
+  - type: textarea
+    id: where
+    attributes:
+      label: どこで
+      description: 本番 / 開発、画面の URL、日時（秘密情報や個人の業務データは書かない）
